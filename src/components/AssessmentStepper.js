@@ -15,6 +15,8 @@ import Typography from "@material-ui/core/Typography";
 
 import Registration from "./Registration";
 import PaymentOptions from "./PaymentOptions";
+import Questions from "./Questions";
+import Results from "./Results";
 
 const QontoConnector = withStyles({
   alternativeLabel: {
@@ -201,15 +203,15 @@ function getStepContent(step) {
     case 1:
       return <PaymentOptions />;
     case 2:
-      return "This is the bit I really care about!";
+      return <Questions />;
     case 3:
-      return "stuff";
+      return <Results />;
     default:
       return "Unknown step";
   }
 }
 
-export default function CustomizedSteppers() {
+const AssessmentStepper = () => {
   const classes = useStyles();
   const [activeStep, setActiveStep] = useState(0);
   const steps = getSteps();
@@ -276,4 +278,6 @@ export default function CustomizedSteppers() {
       </div>
     </div>
   );
-}
+};
+
+export default AssessmentStepper;

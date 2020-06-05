@@ -3,14 +3,14 @@ import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Container from "@material-ui/core/Container";
 
-import Stepper from "./Stepper";
+import AssessmentStepper from "./AssessmentStepper";
 
 const Assessment = () => {
   return (
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Stepper />
+        <AssessmentStepper />
       </Container>
     </React.Fragment>
   );
