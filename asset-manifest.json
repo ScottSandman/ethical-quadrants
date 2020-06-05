@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ethical-quadrants/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/ethical-quadrants/static/js/main.ddc862ee.chunk.js",
+    "main.js.map": "/ethical-quadrants/static/js/main.ddc862ee.chunk.js.map",
+    "runtime-main.js": "/ethical-quadrants/static/js/runtime-main.a2a0ca76.js",
+    "runtime-main.js.map": "/ethical-quadrants/static/js/runtime-main.a2a0ca76.js.map",
+    "static/js/2.e7fa4ecb.chunk.js": "/ethical-quadrants/static/js/2.e7fa4ecb.chunk.js",
+    "static/js/2.e7fa4ecb.chunk.js.map": "/ethical-quadrants/static/js/2.e7fa4ecb.chunk.js.map",
+    "index.html": "/ethical-quadrants/index.html",
+    "precache-manifest.32a305c81d5a2f0b495b54a05cb5cfae.js": "/ethical-quadrants/precache-manifest.32a305c81d5a2f0b495b54a05cb5cfae.js",
+    "service-worker.js": "/ethical-quadrants/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/ethical-quadrants/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.e7fa4ecb.chunk.js.LICENSE.txt": "/ethical-quadrants/static/js/2.e7fa4ecb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2a0ca76.js",
+    "static/js/2.e7fa4ecb.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ddc862ee.chunk.js"
+  ]
+}
